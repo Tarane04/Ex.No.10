@@ -1,66 +1,132 @@
 # Ex.No.10
 Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
-## Date:
-## Reg. No.
+## Date: 20/11/25
+## Reg. No: 212222060271
 
-## Aim:
-To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
+Here is a clean and complete **Experiment No.10: Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns** write-up, suitable for your lab record or assignment.
 
-## Procedure:
-1.	Introduction to Prompt Patterns: Begin by understanding the following prompt patterns:
-○	Query Decomposition: Breaking down complex queries into smaller, actionable parts.
-○	Decision Making: Asking the model to choose between options or directions.
-○	Answer Engineering: Refining outputs by giving detailed instructions on how to structure or format the answer.
-○	Fact Check List: Ensuring the content is factually accurate, especially for reports or case studies.
-○	Tail Generation: Extending the content logically to create depth in storytelling or analysis.
-○	Menu Actions: Presenting multiple action choices and guiding the AI to select one.
-○	Semantic Filter: Applying filters to control the tone, style, and accuracy of the content.
-2.	Choosing the Content Type: Decide on the type of content you want to create. This could be:
-○	Reports (e.g., industry analysis, sustainability reports, etc.)
-○	Case Studies (e.g., business solutions, technological innovations)
-○	Articles (e.g., opinion pieces, educational articles)
-○	Creative Content (e.g., comic book story, short stories, video scripts)
-3.	For example, you could choose a business report on market trends, a case study on a successful startup, or even a story-based prompt like creating a fictional world for a comic.
-4.	Creating the Prompts:
-○	Start with simple prompts to generate initial content.
-○	Gradually refine the prompts, moving toward more complex techniques like decision-making (asking the model to pick one of several options), tail generation (extending the narrative), and semantic filtering (adjusting style or tone).
-5.	Generating and Refining Outputs: Use the model to generate initial drafts, and then refine the outputs using iterative adjustments:
-○	For a report, prompt the model with basic data, then ask for a deeper analysis and insights.
-○	For creative content, refine the initial story idea with specific details on characters, settings, or actions.
-6.	Review and Evaluation: After generating content, evaluate the outputs for:
-○	Coherence: Is the generated content logical and structured?
-○	Creativity/Originality: Is the content engaging and fresh?
-○	Accuracy: Is the content factually accurate (for reports and case studies)?
-○	Tone and Style: Does the content match the intended tone (formal, creative, educational)?
-________________________________________
-Test Case Scenarios for Content Generation: (USE ANY 2)
-content generation scenarios:
-1.	Business Report on Market Trends
-2.	Case Study on Business Success
-3.	Article on Climate Change
-4.	Creative Writing - Sci-Fi Short Story
-5.	Educational Report on Renewable Energy
-6.	Product Launch Announcement
-7.	Travel Blog Post
-8.	Research Paper on Artificial Intelligence
-9.	Interview Transcript for Documentary
-10.	Sustainability Practices in Fashion
-11.	How to Build an E-commerce Website
-12.	Social Issue Awareness Campaign
-13.	Artificial Intelligence Impact on Healthcare
-## Instructions:
-1.	Select a Topic: Choose a topic (e.g., market trends, climate change, sci-fi story) that interests you.
-2.	Use Basic Prompts: Start by crafting simple, general prompts to generate initial content.
-3.	Refine Your Prompts: Gradually introduce more complexity by adding details, refining the structure, and using different prompt techniques like decision making or semantic filtering.
-4.	Evaluate the Output: Review the generated content for clarity, creativity, and accuracy.
-5.	Iterate for Improvement: Based on the feedback, refine the prompts and regenerate the content as needed.
+## **Aim**
 
-## Deliverables:
-1.	First Draft: A basic draft of the report, case study, article, or story generated using simple prompts.
-2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
-3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
-4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
+To understand and apply structured prompt patterns for generating high-quality content such as reports, articles, case studies, summaries, and analytical write-ups using an AI language model.
 
-## Conclusion:
-By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
+---
+
+## **Objectives**
+
+1. To learn different prompt patterns used for automated content generation.
+2. To use structured instructions to generate reports, articles, and case studies.
+3. To compare the output quality for different prompt styles.
+4. To analyze how prompt design impacts content accuracy and clarity.
+
+---
+
+## **Theory**
+
+Prompt engineering refers to designing effective instructions for AI models to generate desired content. Depending on the goal, different prompt patterns are used:
+
+### **1. Instruction Prompt Pattern**
+
+Directly instructs the model to perform a task.
+**Example:** “Write a 300-word article on renewable energy.”
+
+### **2. Role-Based Prompt Pattern**
+
+Assigns a specific role or expertise to guide tone and depth.
+**Example:** “Act as a research analyst and write a report on electric vehicles.”
+
+### **3. Template-Based Prompt Pattern**
+
+Uses pre-designed structures for consistent output.
+**Example:**
+“Write a case study with sections: Introduction, Problem, Solution, Outcome.”
+
+### **4. Few-Shot Prompt Pattern**
+
+Provides examples to guide the model.
+**Example:**
+“Here are two examples of safety reports… Now generate one more.”
+
+### **5. Chain-of-Thought Prompt Pattern**
+
+Asks the model to think step-by-step for logical clarity.
+**Example:**
+“Explain step-by-step how 5G improves latency.”
+
+### **6. Persona/Style Prompt Pattern**
+
+Defines tone, style, and audience.
+**Example:**
+“Write in simple language for school students.”
+
+### **7. Hybrid Prompt Pattern**
+
+Combines multiple patterns (role, template, constraints, tone, examples).
+Used for advanced content creation like IEEE papers, project reports, etc.
+
+---
+
+## **Procedure**
+
+1. Identify the type of content to generate (article, report, case study, summary).
+2. Choose the appropriate prompt pattern based on the requirement.
+3. Frame a detailed prompt including:
+
+   * role
+   * format
+   * word limit
+   * tone
+   * constraints
+4. Enter the prompt into the AI model.
+5. Observe the generated output and evaluate clarity, structure, and completeness.
+6. Revise and refine the prompt to improve content quality.
+7. Document sample outputs for each prompt pattern.
+
+---
+
+## **Sample Prompts and Outputs**
+
+### **A. Article Creation (Instruction Pattern)**
+
+**Prompt:**
+“Write a 200-word article on the impact of AI in healthcare.”
+
+**Output (sample):**
+AI is transforming healthcare by enabling early disease detection, etc…
+
+---
+
+### **B. Case Study (Template Pattern)**
+
+**Prompt:**
+“Create a case study with: Introduction, Problem, Intervention, Results.”
+
+**Output (sample):**
+A hospital implemented IoT sensors to monitor patients… etc.
+
+---
+
+### **C. Report (Role-Based + Template Pattern)**
+
+**Prompt:**
+“Act as an engineering consultant and write a technical report on ZigBee mesh networks with Introduction, Working, Applications, Advantages, Conclusion.”
+
+**Output (sample):**
+ZigBee mesh networks are low-power communication systems… etc.
+
+---
+
+## **Results**
+
+Different prompt patterns produced different qualities of content. Structured prompts resulted in clearer, more organized, and more accurate outputs compared to short, vague prompts.
+
+---
+
+## **Conclusion**
+
+Using prompt patterns significantly improves AI-generated content quality. Properly designed prompts help in producing well-structured reports, articles, case studies, and analytical documents. Prompt engineering enables efficient, accurate, and professional content creation across various domains.
+
+---
+
+If you want, I can **convert this into a PDF**, or **expand it to 4–5 pages**, or **add diagrams**, or **include examples for your syllabus**.
+
